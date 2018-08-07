@@ -1,0 +1,14 @@
+extends layout
+
+include mixins/_storeForm
+    //usually one mixin per page
+    //you include it then with the + sign
+    //you call it
+
+block content
+    .inner
+        h2=title
+        +storeForm(store)
+
+
+            
